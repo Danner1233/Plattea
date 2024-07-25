@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Datos</title>
+    <link rel="stylesheet" href="agregar_TA.css"> <!-- Asegúrate de que 'styles.css' sea el nombre correcto -->
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <h2>Ingrese sus datos</h2>
+            <div class="form-group horizontal">
+                <input type="text" id="nombres" name="nombres" placeholder="Nombres" required>
+                <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="numero-tarjeta" name="numero-tarjeta" placeholder="Número de tarjeta" required>
+            </div>
+            <div class="form-group horizontal">
+                <input type="text" id="fecha-exp" name="fecha-exp" placeholder="Fecha Exp." required>
+                <input type="text" id="cvv" name="cvv" placeholder="CVV" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="numero-identificacion" name="numero-identificacion" placeholder="Número de identificación" required>
+            </div>
+            <div class="form-group centered">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
