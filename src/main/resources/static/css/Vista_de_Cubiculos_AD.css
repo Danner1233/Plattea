@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav .user-profile {
+    display: flex;
+    align-items: center;
+}
+
+nav .user-profile form {
+    display: flex;
+    align-items: center;
+}
+
+nav .user-profile input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+nav .user-profile button {
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+    cursor: pointer;
+}
+
+nav .user-profile button img {
+    height: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cubiculos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cubiculo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+    border: 1px solid #ccc;
+}
+
+.label {
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    min-width: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color1 .label {
+    background-color: #ff6666;
+}
+
+.color2 .label {
+    background-color: #66ff66;
+}
+
+.color3 .label {
+    background-color: #66ccff;
+}
+
+.color4 .label {
+    background-color: #ffcc66;
+}
+
+.color5 .label {
+    background-color: #ff66ff;
+}
+
+.color6 .label {
+    background-color: #99ff66;
+}
+
+.color7 .label {
+    background-color: #6666ff;
+}
+
+.color8 .label {
+    background-color: #ff6699;
+}
+
+.cubiculo .info {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+button {
+    background-color: #FFA500;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #e69500;
+}
+
+nav .plattea {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    display: inline-block; 
+}
