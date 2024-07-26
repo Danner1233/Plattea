@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7941d;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    background-color: white;
+    padding: 3rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+    position: relative;
+    min-height:  400px; /* Incrementa la altura mínima */
+}
+
+.logo-container {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.logo-circle {
+    width: 100px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.logo-container img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.logo-container h1 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: black;
+    padding-top: 10px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 1.5rem;
+    margin-top: 4rem;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 0.5rem 0;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    outline: none;
+    font-size: 1rem;
+}
+
+.input-container label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #777;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: all 0.2s ease-in-out;
+    margin-top: 1rem;
+}
+
+.input-container input:focus + label,
+.input-container input:valid + label {
+    top: -20px;
+    font-size: 0.75rem;
+    color: #f7941d;
+}
+
+.login-button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #f7941d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 4rem;
+}
+
+.login-button:hover {
+    background-color: #e68a00;
+}
+
+.links {
+    margin-top: 1rem;
+}
+
+.links a {
+    display: block;
+    color: #777;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
