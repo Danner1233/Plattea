@@ -1,68 +1,86 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     margin: 0;
-    padding: 10px 20px;
+    padding: 0;
+    background-color: #f0f0f0;
 }
 
 header {
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-nav {
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
 }
 
-nav .logo {
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
     height: 40px;
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #F2A900;
 }
 
 nav ul {
     list-style: none;
     display: flex;
+    gap: 20px;
     margin: 0;
     padding: 0;
-    align-items: center;
-}
-
-nav ul li {
-    margin: 0 15px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #333;
+    font-size: 16px;
 }
 
-nav .user-profile {
+nav ul li a:hover {
+    color: #F2A900;
+}
+
+.user-options a {
+    margin-left: 10px;
+}
+
+.user-options img {
+    height: 24px;
+    border-radius: 100cm;
+}
+
+.search-bar {
     display: flex;
     align-items: center;
 }
 
-nav .user-profile form {
-    display: flex;
-    align-items: center;
-}
-
-nav .user-profile input[type="text"] {
+.search-bar input {
     padding: 5px;
     border: 1px solid #ccc;
-    border-radius: 4px 0 0 4px;
+    border-radius: 3px 0 0 3px;
     outline: none;
 }
 
-nav .user-profile button {
+.search-bar button {
+    padding: 5px 10px;
     border: none;
-    background-color: transparent;
-    padding: 5px;
+    background-color: white;
+    border-radius: 100cm;
     cursor: pointer;
 }
 
-nav .user-profile button img {
+.search-bar button img {
     height: 20px;
 }
 
