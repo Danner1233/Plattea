@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plattéa</title>
+    <link rel="stylesheet" href="vista_VE.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://media.discordapp.net/attachments/1113086822373916763/1253549696706805791/india-gate.png?ex=66a50fe1&is=66a3be61&hm=b19000aabe49113ad4d67669d7226dbfd2d7266bc4cf754f6a12db666a18a837&=&format=webp&quality=lossless" alt="Logo Plattéa">
+            <h1>PLATTÉA</h1>
+        </div>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Tienda</a>
+            <a href="#" class="active">Productos</a>
+            <a href="#">Categorías</a>
+        </nav>
+        <div class="user-icons">
+            <img src="https://help.zonbase.com/wp-content/uploads/2023/01/search.png" alt="Buscar">
+            <img src="https://www.xenonfactory.es/wp-content/uploads/2019/01/carrito-compras-desarrollo-tienda-virtual.png" alt="Perfil">
+        </div>
+    </header>
+    <div class="container">
+        <div class="products">
+            <div class="product">
+                <img src="https://athleticstore.com.co/wp-content/uploads/2020/08/T656759-ON-COMPETITION-VV-N%C2%BA-4-a-scaled.jpg" alt="Balón Golty">
+                <div class="details">
+                    <span>Balon Golty - Mega Efecto Curvado</span>
+                    <span>Golty</span>
+                    <span class="category">Futbol</span>
+                </div>
+                <span class="price">$1.000.000</span>
+            </div>
+            <div class="product">
+                <img src="https://www.laboratoriochile.cl/wp-content/uploads/2015/11/Paracetamol_500MG_16C_BE_HD.jpg" alt="Paracetamol">
+                <div class="details">
+                    <span>Tabletas de Paracetamol - Volare</span>
+                    <span>Paracetamol</span>
+                    <span class="category">Las Drogas</span>
+                </div>
+                <span class="price">$50.000</span>
+            </div>
+            <div class="product">
+                <img src="https://cdn1.totalcommerce.cloud/mercacentro/product-zoom/es/galletas-oreo-vainilla-bolsa-12-und-2.webp" alt="Galletas Oreo">
+                <div class="details">
+                    <span>Galletas Oreo Mini - Vienen muchas</span>
+                    <span>Oreo</span>
+                    <span class="category">Dolores de barriga</span>
+                </div>
+                <span class="price">$5.000</span>
+            </div>
+            <div class="product">
+                <img src="https://athleticstore.com.co/wp-content/uploads/2020/08/T656759-ON-COMPETITION-VV-N%C2%BA-4-a-scaled.jpg" alt="Balón Golty">
+                <div class="details">
+                    <span>Balon Golty - Mega Efecto Curvado</span>
+                    <span>Golty</span>
+                    <span class="category">Futbol</span>
+                </div>
+                <span class="price">$1.000.000</span>
+            </div>
+            <div class="product">
+                <img src="https://athleticstore.com.co/wp-content/uploads/2020/08/T656759-ON-COMPETITION-VV-N%C2%BA-4-a-scaled.jpg" alt="Balón Golty">
+                <div class="details">
+                    <span>Balon Golty - Mega Efecto Curvado</span>
+                    <span>Golty</span>
+                    <span class="category">Futbol</span>
+                </div>
+                <span class="price">$1.000.000</span>
+            </div>
+        </div>
+        <div class="filters">
+            <h3>Filtros</h3>
+            <h4>Precio</h4>
+            <label>
+                <input type="radio" name="precio"> Cualquier Precio
+            </label>
+            <input type="number" placeholder="MAX" class="price-input">
+            <input type="number" placeholder="MIN" class="price-input">
+            <h4>Categoría</h4>
+            <label>
+                <input type="checkbox" name="categoria"> Relevancia
+            </label>
+            <label>
+                <input type="checkbox" name="categoria"> Los favoritos
+            </label>
+            <label>
+                <input type="checkbox" name="categoria"> Lo más vendido
+            </label>
+            <label>
+                <input type="checkbox" name="categoria"> Salido recientemente
+            </label>
+            <label>
+                <input type="checkbox" name="categoria"> Precio min a max
+            </label>
+            <label>
+                <input type="checkbox" name="categoria"> Precio max a min
+            </label>
+            <h4>Descuento</h4>
+            <label>
+                <input type="radio" name="descuento" value="10"> 10%
+            </label>
+            <label>
+                <input type="radio" name="descuento" value="20"> 20%
+            </label>
+            <label>
+                <input type="radio" name="descuento" value="30"> 30%
+            </label>
+            <label>
+                <input type="radio" name="descuento" value="custom" id="custom-discount"> Tu descuento
+            </label>
+            <div class="custom-discount">
+                <input type="number" placeholder="Ingresa tu descuento (%)" id="discount-input">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
